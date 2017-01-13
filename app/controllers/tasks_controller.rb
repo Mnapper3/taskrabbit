@@ -50,5 +50,6 @@ private
     
     def find_task
         @task = Task.find(params[:id])
+        
     end
 end
