@@ -4,9 +4,8 @@
     %p= @task.description
     %p= @task.company
     .well.well-show.text-center
-      %h4 More Info 
     %h3= @task.url
-    %button.btn.btn-default= link_to "Go There", @task.url
+    
 #links
   = link_to "Home", root_path, class: "btn btn-sm btn-info"
   = link_to "Edit", edit_task_path, class: "btn btn-sm btn-warning"
